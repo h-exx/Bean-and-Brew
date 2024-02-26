@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {@apply py-5 px-72 bg-orange-400 text-white flex justify-between items-center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navButton {@apply transition mx-0.5 text-gray-100 hover:text-white hover:bg-orange-500 rounded-full px-5 py-4; }
+
+.navPrimary {@apply bg-orange-600 hover:bg-orange-500 text-gray-100 hover:text-white;}
+
+.navSecondary {@apply ring-orange-600 ring-2 ring-inset hover:bg-orange-500 hover:ring-0 text-gray-100 hover:text-white;}
